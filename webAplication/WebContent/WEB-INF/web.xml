@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>ProyectoWebGrupo3</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+  <servlet> 
+    <servlet-name>LogIn</servlet-name>
+    <servlet-class>main.java.controller.LogInController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LogIn</servlet-name>
+    <url-pattern>/LogInController</url-pattern>
+  </servlet-mapping>
+
+  <servlet> 
+    <servlet-name>Empleado</servlet-name>
+    <servlet-class>main.java.controller.EmpleadoController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Empleado</servlet-name>
+    <url-pattern>/EmpleadoController</url-pattern>
+  </servlet-mapping>
+
+ <servlet> 
+    <servlet-name>Empresas</servlet-name>
+    <servlet-class>main.java.controller.EmpresaController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Empresas</servlet-name>
+    <url-pattern>/EmpresaController</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+        <servlet-name>ErrorHandler</servlet-name>
+        <servlet-class>main.java.controller.ErrorHandler</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ErrorHandler</servlet-name>
+        <url-pattern>/ErrorHandler</url-pattern>
+    </servlet-mapping>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error-404.html</location>
+        <!-- /src/main/webapp/error-404.html-->
+    </error-page>
+    <error-page>
+        <exception-type>java.lang.Exception</exception-type>
+        <location>/ErrorHandler</location>
+    </error-page>
+    <error-page>
+        <exception-type>java.lang.NullPointerException</exception-type>
+        <location>/ErrorHandler</location>
+    </error-page>
+    <error-page>
+        <exception-type>javax.servlet.ServletException</exception-type>
+        <location>/ErrorHandler</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/ErrorHandler</location>
+    </error-page>
+    <error-page>
+        <error-code>503</error-code>
+        <location>/ErrorHandler</location>
+    </error-page>
+
+
+</web-app>
