@@ -223,6 +223,25 @@
           "lib/netcoreapp3.1/MySqlConnector.dll": {}
         }
       },
+      "OdeToCode.UseNodeModules/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/OdeToCode.UseNodeModules.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/OdeToCode.UseNodeModules.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "contentFiles": {
+          "contentFiles/any/netcoreapp3.0/Properties/launchSettings.json": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Pomelo.EntityFrameworkCore.MySql/5.0.0-alpha.2": {
         "type": "package",
         "dependencies": {
@@ -745,6 +764,20 @@
         "mysqlconnector.nuspec"
       ]
     },
+    "OdeToCode.UseNodeModules/3.0.0": {
+      "sha512": "w1Xdc8oDggU4nucBSnoR4pPT9oHf/JtYGOisaeaFd8jiOoBcByddyuIPmWI2GiNUpXGKMPQROD4wl1aeEZ5aaA==",
+      "type": "package",
+      "path": "odetocode.usenodemodules/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Properties/launchSettings.json",
+        "contentFiles/any/netcoreapp3.0/Properties/launchSettings.json",
+        "lib/netcoreapp3.0/OdeToCode.UseNodeModules.dll",
+        "odetocode.usenodemodules.3.0.0.nupkg.sha512",
+        "odetocode.usenodemodules.nuspec"
+      ]
+    },
     "Pomelo.EntityFrameworkCore.MySql/5.0.0-alpha.2": {
       "sha512": "g2+otNSXHxzmWUJI7+KfoL9C35V8BAKC1fqfriHNNghMQiwrUkK+xaN+3w5r5+YUKA1qfiJH6+Wwc+Kkcsr3Og==",
       "type": "package",
@@ -910,6 +943,7 @@
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.13",
+      "OdeToCode.UseNodeModules >= 3.0.0",
       "Pomelo.EntityFrameworkCore.MySql >= 5.0.0-alpha.2"
     ]
   },
@@ -919,11 +953,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Laura\\source\\repos\\pruebaconexionmysql\\pruebaconexionmysql.csproj",
+      "projectUniqueName": "C:\\Users\\Laura\\Desktop\\TFG\\AplicacionTFG\\pruebaconexionmysql\\pruebaconexionmysql.csproj",
       "projectName": "pruebaconexionmysql",
-      "projectPath": "C:\\Users\\Laura\\source\\repos\\pruebaconexionmysql\\pruebaconexionmysql.csproj",
+      "projectPath": "C:\\Users\\Laura\\Desktop\\TFG\\AplicacionTFG\\pruebaconexionmysql\\pruebaconexionmysql.csproj",
       "packagesPath": "C:\\Users\\Laura\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Laura\\source\\repos\\pruebaconexionmysql\\obj\\",
+      "outputPath": "C:\\Users\\Laura\\Desktop\\TFG\\AplicacionTFG\\pruebaconexionmysql\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Laura\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -969,6 +1003,10 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
             "version": "[1.10.13, )"
+          },
+          "OdeToCode.UseNodeModules": {
+            "target": "Package",
+            "version": "[3.0.0, )"
           },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Laura\\source\\repos\\pruebaconexionmysql\\pruebaconexionmysql.csproj": {}
+    "C:\\Users\\Laura\\Desktop\\TFG\\AplicacionTFG\\pruebaconexionmysql\\pruebaconexionmysql.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Laura\\source\\repos\\pruebaconexionmysql\\pruebaconexionmysql.csproj": {
+    "C:\\Users\\Laura\\Desktop\\TFG\\AplicacionTFG\\pruebaconexionmysql\\pruebaconexionmysql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Laura\\source\\repos\\pruebaconexionmysql\\pruebaconexionmysql.csproj",
+        "projectUniqueName": "C:\\Users\\Laura\\Desktop\\TFG\\AplicacionTFG\\pruebaconexionmysql\\pruebaconexionmysql.csproj",
         "projectName": "pruebaconexionmysql",
-        "projectPath": "C:\\Users\\Laura\\source\\repos\\pruebaconexionmysql\\pruebaconexionmysql.csproj",
+        "projectPath": "C:\\Users\\Laura\\Desktop\\TFG\\AplicacionTFG\\pruebaconexionmysql\\pruebaconexionmysql.csproj",
         "packagesPath": "C:\\Users\\Laura\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Laura\\source\\repos\\pruebaconexionmysql\\obj\\",
+        "outputPath": "C:\\Users\\Laura\\Desktop\\TFG\\AplicacionTFG\\pruebaconexionmysql\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Laura\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,6 +57,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.10.13, )"
+            },
+            "OdeToCode.UseNodeModules": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",

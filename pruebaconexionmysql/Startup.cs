@@ -49,6 +49,8 @@ namespace pruebaconexionmysql
             {
                 endpoints.MapControllers();
             });
+
+            app.UseNodeModules();
         }
     }
 }

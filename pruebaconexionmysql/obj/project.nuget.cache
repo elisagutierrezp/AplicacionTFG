@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OxIDIYyPlAkKIHzkqk0lYU0cdkZrYZoOYZ/XZEqdlzWOHJAmLDRnvSgaRK94rwtmC//rTPzntel6W3Mpkeitxw==",
+  "dgSpecHash": "p6iLGoOdkzVtIUI+FrDverPdqodvvBdCahMUczIAW9QuFAHufgqRdRJCF02X1r7HuWPvGJ93iDlmF79MEWEmsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Laura\\source\\repos\\pruebaconexionmysql\\pruebaconexionmysql.csproj",
+  "projectFilePath": "C:\\Users\\Laura\\Desktop\\TFG\\AplicacionTFG\\pruebaconexionmysql\\pruebaconexionmysql.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Laura\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Laura\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -23,6 +23,7 @@
     "C:\\Users\\Laura\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\Laura\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
     "C:\\Users\\Laura\\.nuget\\packages\\mysqlconnector\\1.1.0\\mysqlconnector.1.1.0.nupkg.sha512",
+    "C:\\Users\\Laura\\.nuget\\packages\\odetocode.usenodemodules\\3.0.0\\odetocode.usenodemodules.3.0.0.nupkg.sha512",
     "C:\\Users\\Laura\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\5.0.0-alpha.2\\pomelo.entityframeworkcore.mysql.5.0.0-alpha.2.nupkg.sha512",
     "C:\\Users\\Laura\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Laura\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
