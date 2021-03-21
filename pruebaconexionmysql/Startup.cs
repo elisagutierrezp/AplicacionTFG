@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using pruebaconexionmysql.DBContexts;
 
 namespace pruebaconexionmysql
 {
@@ -26,9 +25,9 @@ namespace pruebaconexionmysql
 
     
             string mySqlConnectionStr = Configuration.GetConnectionString("DefaultConnection");
-            services.AddDbContextPool<MyDBContext>(options => options.UseMySql(mySqlConnectionStr, ServerVersion.AutoDetect(mySqlConnectionStr)));
+           // services.AddDbContextPool<MyDBContext>(options => options.UseMySql(mySqlConnectionStr, ServerVersion.AutoDetect(mySqlConnectionStr)));
 
-            services.AddControllers();
+            services.AddControllersWithViews();
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -37,7 +36,7 @@ namespace pruebaconexionmysql
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseStaticFiles(); //para que se pueda ejecutar el index 
+            app.UseStaticFiles(); //para que se pueda ejecutar el index.html
 
             app.UseHttpsRedirection();
 
@@ -45,10 +44,13 @@ namespace pruebaconexionmysql
 
             app.UseAuthorization();
 
-            app.UseEndpoints(endpoints =>
+            app.UseEndpoints(cfg =>
             {
-                endpoints.MapControllers();
+                cfg.MapControllerRoute("Default",
+                      "{controller}/{action}/{id?}",
+                      new { controller = "App", Action = "Index" });
             });
+
 
             //app.UseNodeModules();
         }

@@ -90,3 +90,5 @@ C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreap
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreapp3.1\pruebaconexionmysql.genruntimeconfig.cache
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\OdeToCode.UseNodeModules.dll
+C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreapp3.1\Razor\Views\App\Index.cshtml.g.cs
+C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\libman.json
