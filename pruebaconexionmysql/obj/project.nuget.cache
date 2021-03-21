@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "p6iLGoOdkzVtIUI+FrDverPdqodvvBdCahMUczIAW9QuFAHufgqRdRJCF02X1r7HuWPvGJ93iDlmF79MEWEmsQ==",
+  "dgSpecHash": "URp7zaBK2otouE4f5RME+Ho0BNQVHqLtVuAKNY+PgD20HQarkDj66dXZlDLy4mZ+Hhx1321EfCulk/hd5t0Y9w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Laura\\Desktop\\TFG\\AplicacionTFG\\pruebaconexionmysql\\pruebaconexionmysql.csproj",
   "expectedPackageFiles": [
@@ -9,9 +9,9 @@
     "C:\\Users\\Laura\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.4\\microsoft.entityframeworkcore.5.0.4.nupkg.sha512",
     "C:\\Users\\Laura\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.4\\microsoft.entityframeworkcore.abstractions.5.0.4.nupkg.sha512",
     "C:\\Users\\Laura\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.4\\microsoft.entityframeworkcore.analyzers.5.0.4.nupkg.sha512",
-    "C:\\Users\\Laura\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.0\\microsoft.entityframeworkcore.design.5.0.0.nupkg.sha512",
-    "C:\\Users\\Laura\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.0\\microsoft.entityframeworkcore.relational.5.0.0.nupkg.sha512",
-    "C:\\Users\\Laura\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.0\\microsoft.entityframeworkcore.tools.5.0.0.nupkg.sha512",
+    "C:\\Users\\Laura\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.4\\microsoft.entityframeworkcore.design.5.0.4.nupkg.sha512",
+    "C:\\Users\\Laura\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.4\\microsoft.entityframeworkcore.relational.5.0.4.nupkg.sha512",
+    "C:\\Users\\Laura\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.4\\microsoft.entityframeworkcore.tools.5.0.4.nupkg.sha512",
     "C:\\Users\\Laura\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Laura\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\Laura\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

@@ -50,7 +50,7 @@ namespace pruebaconexionmysql
                 endpoints.MapControllers();
             });
 
-            app.UseNodeModules();
+            //app.UseNodeModules();
         }
     }
 }
