@@ -36,7 +36,7 @@ namespace pruebaconexionmysql
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseStaticFiles(); //para que se pueda ejecutar el index.html
+           
 
             app.UseHttpsRedirection();
 
@@ -52,7 +52,7 @@ namespace pruebaconexionmysql
             });
 
 
-            //app.UseNodeModules();
+            app.UseNodeModules();
         }
     }
 }

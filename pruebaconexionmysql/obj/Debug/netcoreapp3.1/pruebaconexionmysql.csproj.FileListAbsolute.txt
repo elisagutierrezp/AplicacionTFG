@@ -40,6 +40,9 @@ C:\Users\Laura\source\repos\pruebaconexionmysql\bin\Debug\netcoreapp3.1\MySqlCon
 C:\Users\Laura\source\repos\pruebaconexionmysql\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\package-lock.json
+C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\package.json
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\pruebaconexionmysql.exe
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\pruebaconexionmysql.deps.json
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\pruebaconexionmysql.runtimeconfig.json
@@ -63,6 +66,7 @@ C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreap
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\OdeToCode.UseNodeModules.dll
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
@@ -80,7 +84,9 @@ C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreap
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreapp3.1\pruebaconexionmysql.TagHelpers.input.cache
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreapp3.1\pruebaconexionmysql.TagHelpers.output.cache
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreapp3.1\pruebaconexionmysql.RazorCoreGenerate.cache
+C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreapp3.1\Razor\Views\App\Index.cshtml.g.cs
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreapp3.1\pruebaconexionmysql.RazorTargetAssemblyInfo.cache
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreapp3.1\pruebaconexionmysql.RazorTargetAssemblyInfo.cs
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreapp3.1\pruebaconexionmysql.Views.pdb
@@ -88,7 +94,8 @@ C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreap
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreapp3.1\pruebaconexionmysql.dll
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreapp3.1\pruebaconexionmysql.pdb
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreapp3.1\pruebaconexionmysql.genruntimeconfig.cache
-C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\OdeToCode.UseNodeModules.dll
-C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\netcoreapp3.1\Razor\Views\App\Index.cshtml.g.cs
-C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\client\angular.json
+C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\client\package-lock.json
+C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\client\package.json
+C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\client\tsconfig.app.json
+C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\netcoreapp3.1\client\tsconfig.json
