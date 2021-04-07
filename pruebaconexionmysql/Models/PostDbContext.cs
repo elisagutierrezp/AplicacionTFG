@@ -1,12 +1,15 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+
 
 #nullable disable
 
 namespace pruebaconexionmysql.Models
 {
-    public partial class PostDbContext : DbContext
+    public partial class PostDbContext : IdentityDbContext<Usuario>
     {
         public PostDbContext()
         {
