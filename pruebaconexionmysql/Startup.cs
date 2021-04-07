@@ -8,8 +8,8 @@ using Microsoft.Extensions.Hosting;
 using pruebaconexionmysql.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
-using System.Text;
 using System;
+using System.Text;
 
 namespace pruebaconexionmysql
 {
@@ -28,27 +28,39 @@ namespace pruebaconexionmysql
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<ApplicationSettings>(Configuration.GetSection("ApplicationSettings"));
 
     
             string mySqlConnectionStr = Configuration.GetConnectionString("DefaultConnection");
            services.AddDbContextPool<PostDbContext>(options => options.UseMySql(mySqlConnectionStr, ServerVersion.AutoDetect(mySqlConnectionStr)));
-            services.AddIdentity<Usuario, IdentityRole>().AddEntityFrameworkStores<PostDbContext>().AddDefaultTokenProviders();
+            services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<PostDbContext>().AddDefaultTokenProviders();
 
 
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-               .AddJwtBearer(options =>
-                options.TokenValidationParameters = new TokenValidationParameters
+            var key = Encoding.UTF8.GetBytes(Configuration["ApplicationSettings:JWT_Secret".ToString()]);
+
+
+            //AUTENTICACION
+
+            services.AddAuthentication(x =>
+            {
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(x =>
+            {
+                x.RequireHttpsMetadata = false;
+                x.SaveToken = false;
+                x.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
                 {
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
-                    ValidateLifetime = true,
                     ValidateIssuerSigningKey = true,
-                    ValidIssuer = "yourdomain.com",
-                    ValidAudience = "yourdomain.com",
-                    IssuerSigningKey = new SymmetricSecurityKey(
-                   Encoding.UTF8.GetBytes(Configuration["Llave_super_secreta"])),
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
                     ClockSkew = TimeSpan.Zero
-                });
+                };
+
+            });
+
 
             services.AddControllersWithViews();
         }
@@ -59,7 +71,9 @@ namespace pruebaconexionmysql
             {
                 app.UseDeveloperExceptionPage();
             }
-           
+
+            app.UseStaticFiles();
+     
 
             app.UseHttpsRedirection();
 
@@ -76,6 +90,8 @@ namespace pruebaconexionmysql
 
 
             app.UseNodeModules();
+
+           
         }
     }
 }

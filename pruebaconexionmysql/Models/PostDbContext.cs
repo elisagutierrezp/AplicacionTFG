@@ -1,15 +1,12 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-
 
 #nullable disable
 
 namespace pruebaconexionmysql.Models
 {
-    public partial class PostDbContext : IdentityDbContext<Usuario>
+    public partial class PostDbContext : DbContext
     {
         public PostDbContext()
         {
@@ -26,6 +23,7 @@ namespace pruebaconexionmysql.Models
         public virtual DbSet<Centropractica> Centropracticas { get; set; }
         public virtual DbSet<Coordinadorpractica> Coordinadorpracticas { get; set; }
         public virtual DbSet<Direccion> Direccions { get; set; }
+        public virtual DbSet<Efmigrationshistory> Efmigrationshistories { get; set; }
         public virtual DbSet<Peticion> Peticions { get; set; }
         public virtual DbSet<Rotatorio> Rotatorios { get; set; }
         public virtual DbSet<Tutorpractica> Tutorpracticas { get; set; }
@@ -170,6 +168,25 @@ namespace pruebaconexionmysql.Models
 
                 entity.Property(e => e.CodigoPostal)
                     .HasColumnType("varchar(45)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
+            });
+
+            modelBuilder.Entity<Efmigrationshistory>(entity =>
+            {
+                entity.HasKey(e => e.MigrationId)
+                    .HasName("PRIMARY");
+
+                entity.ToTable("__efmigrationshistory");
+
+                entity.Property(e => e.MigrationId)
+                    .HasColumnType("varchar(95)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
+
+                entity.Property(e => e.ProductVersion)
+                    .IsRequired()
+                    .HasColumnType("varchar(32)")
                     .HasCharSet("utf8")
                     .HasCollation("utf8_general_ci");
             });

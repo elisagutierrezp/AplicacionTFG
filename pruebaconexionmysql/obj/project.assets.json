@@ -344,7 +344,7 @@
           "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.10.13": {
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.10.8": {
         "type": "package",
         "build": {
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
@@ -1013,10 +1013,10 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.10.13": {
-      "sha512": "HWRH5pClal37WMKb0kV2JtnNKUEyQk8kJDdBz0M0fn9hKeU2KW8wdxkxeBNaumGQzHibZqSRofkeeayfpsMaKA==",
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.10.8": {
+      "sha512": "LXlwvlXetgFg2sqsLCzi+Kd+nV78VrRzy9u6nKU05yx9tcsF9BcLqL/+vtj01Z7RPhp0U8D4Px/bHbyMR9Ddjg==",
       "type": "package",
-      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.10.13",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.10.8",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1027,24 +1027,9 @@
         "build/Container.targets",
         "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props",
         "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets",
-        "build/Rules/GeneralBrowseObject.xaml",
-        "build/Rules/cs-CZ/GeneralBrowseObject.xaml",
-        "build/Rules/de-DE/GeneralBrowseObject.xaml",
-        "build/Rules/es-ES/GeneralBrowseObject.xaml",
-        "build/Rules/fr-FR/GeneralBrowseObject.xaml",
-        "build/Rules/it-IT/GeneralBrowseObject.xaml",
-        "build/Rules/ja-JP/GeneralBrowseObject.xaml",
-        "build/Rules/ko-KR/GeneralBrowseObject.xaml",
-        "build/Rules/pl-PL/GeneralBrowseObject.xaml",
-        "build/Rules/pt-BR/GeneralBrowseObject.xaml",
-        "build/Rules/ru-RU/GeneralBrowseObject.xaml",
-        "build/Rules/tr-TR/GeneralBrowseObject.xaml",
-        "build/Rules/zh-CN/GeneralBrowseObject.xaml",
-        "build/Rules/zh-TW/GeneralBrowseObject.xaml",
         "build/ToolsTarget.props",
         "build/ToolsTarget.targets",
-        "icon.png",
-        "microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
+        "microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512",
         "microsoft.visualstudio.azure.containers.tools.targets.nuspec",
         "tools/Microsoft.VisualStudio.Containers.Tools.Common.dll",
         "tools/Microsoft.VisualStudio.Containers.Tools.Shared.dll",
@@ -1382,7 +1367,7 @@
       "Microsoft.EntityFrameworkCore >= 5.0.4",
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.4",
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.13",
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.8",
       "OdeToCode.UseNodeModules >= 3.0.0",
       "Pomelo.EntityFrameworkCore.MySql >= 5.0.0-alpha.2"
     ]
@@ -1450,7 +1435,7 @@
           },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
-            "version": "[1.10.13, )"
+            "version": "[1.10.8, )"
           },
           "OdeToCode.UseNodeModules": {
             "target": "Package",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MrKy0Xh46L45jD/pRkQedwWAvwip094KBC4ZrydBrlwIHLFLlfjcix437MqVZyOn3B1STmmOPVM6C1ak2LKtfw==",
+  "dgSpecHash": "gsrHJGYK+e51T5XxrxQ5HqvUEr8iOFMatklEycNS5bd/Sg+Z/a40dE33XSYKOthrhIRv87Qs++UFCcnTZq9dGA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Laura\\Desktop\\TFG\\AplicacionTFG\\pruebaconexionmysql\\pruebaconexionmysql.csproj",
   "expectedPackageFiles": [
@@ -32,7 +32,7 @@
     "C:\\Users\\Laura\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.7.1\\microsoft.identitymodel.protocols.6.7.1.nupkg.sha512",
     "C:\\Users\\Laura\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.7.1\\microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512",
     "C:\\Users\\Laura\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.7.1\\microsoft.identitymodel.tokens.6.7.1.nupkg.sha512",
-    "C:\\Users\\Laura\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
+    "C:\\Users\\Laura\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.8\\microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512",
     "C:\\Users\\Laura\\.nuget\\packages\\mysqlconnector\\1.1.0\\mysqlconnector.1.1.0.nupkg.sha512",
     "C:\\Users\\Laura\\.nuget\\packages\\odetocode.usenodemodules\\3.0.0\\odetocode.usenodemodules.3.0.0.nupkg.sha512",
     "C:\\Users\\Laura\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\5.0.0-alpha.2\\pomelo.entityframeworkcore.mysql.5.0.0-alpha.2.nupkg.sha512",

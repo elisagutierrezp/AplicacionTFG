@@ -14,7 +14,7 @@
       "launchBrowser": true,
       "launchUrl": "weatherforecast",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "Llave_super_secreta": "1249593000000000000049485uhfjha5446422222"
       }
     },
     "pruebaconexionmysql": {

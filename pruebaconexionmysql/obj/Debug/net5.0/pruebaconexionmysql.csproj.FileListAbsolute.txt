@@ -60,3 +60,4 @@ C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\net5.0\pr
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\net5.0\ref\pruebaconexionmysql.dll
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\net5.0\pruebaconexionmysql.pdb
 C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\obj\Debug\net5.0\pruebaconexionmysql.genruntimeconfig.cache
+C:\Users\Laura\Desktop\TFG\AplicacionTFG\pruebaconexionmysql\bin\Debug\net5.0\packageenfermo.json
